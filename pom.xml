@@ -30,8 +30,8 @@
         <sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
         <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
         <springdoc.version>1.6.9</springdoc.version>
-        <codegen.api.package.name>ma.lbv.api.swagger.rest</codegen.api.package.name>
-        <codegen.model.page.name>ma.lbv.api.swagger.model</codegen.model.page.name>
+        <codegen.api.package.name>ma.onmt.api.swagger.rest</codegen.api.package.name>
+        <codegen.model.page.name>ma.onmt.api.swagger.model</codegen.model.page.name>
         <api.name>**</api.name>
     </properties>
     <dependencies>
