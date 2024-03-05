@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="build the parent project">
-      <change afterPath="$PROJECT_DIR$/docker/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/docker-compose-postgrsql.yml" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="setup initial pipelines">
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/java/com/egilekom/configserver/ConfigurationServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/test/java/com/egilekom/configserver/ConfigurationServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +57,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pc/Documents/youcode/ONMT-PLATEFORM&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pc/Documents/youcode/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,12 +67,16 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-parent" />
       <recent name="$PROJECT_DIR$/parent" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.OnmtCommonApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ONMT-PLATEFORM" />
       <method v="2">
@@ -67,6 +86,13 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="ONMT-PLATEFORM" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="onmt-config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.egilekom.configserver.ConfigurationServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709645834792</updated>
       <workItem from="1709645836218" duration="1311000" />
-      <workItem from="1709647161235" duration="223000" />
+      <workItem from="1709647161235" duration="934000" />
+      <workItem from="1709648106143" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -130,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709647196676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build the parent project">
+      <option name="closed" value="true" />
+      <created>1709647390809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647390809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="setup initial pipelines">
+      <option name="closed" value="true" />
+      <created>1709647558547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647558547</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +183,8 @@
     <MESSAGE value="ignoring" />
     <MESSAGE value="build the common project" />
     <MESSAGE value="build the parent project" />
-    <option name="LAST_COMMIT_MESSAGE" value="build the parent project" />
+    <MESSAGE value="setup initial pipelines" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup initial pipelines" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
