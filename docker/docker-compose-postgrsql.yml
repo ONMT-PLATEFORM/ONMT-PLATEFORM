@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  onmt_s1_db_v2:
+    image: postgres
+    environment:
+      POSTGRES_USER: ${USERNAME}
+      PGUSER: ${USERNAME}
+      PGPASSWORD: ${PASSWORD}
+      POSTGRES_PASSWORD: ${PASSWORD}
+      POSTGRES_DB: ${DATABASE}
+      PGDATA: /data/postgres
+    #    volumes:
+    #      - db:/data/postgres
+    ports:
+      - ${PORT}:${PORT}
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  db:

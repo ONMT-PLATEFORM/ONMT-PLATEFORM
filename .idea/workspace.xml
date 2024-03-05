@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="build the parent project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose-postgrsql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709645834792</updated>
       <workItem from="1709645836218" duration="1311000" />
-      <workItem from="1709647161235" duration="21000" />
+      <workItem from="1709647161235" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -120,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709646960092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build the parent project">
+      <option name="closed" value="true" />
+      <created>1709647196676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647196676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
