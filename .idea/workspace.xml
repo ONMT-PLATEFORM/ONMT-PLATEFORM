@@ -4,51 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites">
-      <change afterPath="$PROJECT_DIR$/region-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/AccommodationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/TouristicAttractionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/request/AccommodationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/request/ActivityRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/request/EventRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/request/RegionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/request/TouristicAttractionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/response/AccommodationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/response/ActivityResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/response/EventResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/response/RegionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/response/TouristicAttractionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/Accommodation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/TouristicAttraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/ActivityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/RegionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/TouristicAttractionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/AccommodationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/RegionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/TouristicAttractionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/AccommodationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/ActivityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/EventServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/RegionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/TouristicAttractionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Adding necessary component controller,service , repo , entity , dto ...">
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/aspects/LoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +53,7 @@
     "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/region-service",
+    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/region-service/src/main/java/ma/onmt/api/regionservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,6 +68,7 @@
       <recent name="ma.onmt.api.regionservice.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice" />
       <recent name="$PROJECT_DIR$/region-service" />
       <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
       <recent name="$PROJECT_DIR$" />
@@ -173,7 +132,7 @@
       <workItem from="1709716307545" duration="467000" />
       <workItem from="1709716783669" duration="91000" />
       <workItem from="1709716882979" duration="1063000" />
-      <workItem from="1709738015501" duration="3765000" />
+      <workItem from="1709738015501" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -239,11 +198,30 @@
       <option name="project" value="LOCAL" />
       <updated>1709716908456</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding necessary component controller,service , repo , entity , dto ...">
+      <option name="closed" value="true" />
+      <created>1709748230261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709748230261</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignoring" />
@@ -251,7 +229,8 @@
     <MESSAGE value="build the parent project" />
     <MESSAGE value="setup initial pipelines" />
     <MESSAGE value="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites" />
-    <option name="LAST_COMMIT_MESSAGE" value="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites" />
+    <MESSAGE value="Adding necessary component controller,service , repo , entity , dto ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding necessary component controller,service , repo , entity , dto ..." />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
