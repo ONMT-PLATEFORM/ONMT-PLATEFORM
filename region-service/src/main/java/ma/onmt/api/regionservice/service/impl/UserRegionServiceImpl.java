@@ -14,7 +14,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class UserRegionServiceImpl implements UserRegionService {
     // : CALLING ANOTHER API VIA FEIGN CLIENT
-    private final UserFeignClient userFeignClient;
+    private UserFeignClient userFeignClient;
     private final RegionRepository regionRepository;
     @Override
     public Page<UserResponse> getUsersByRegion(Long id, Map<String, String> params) {
