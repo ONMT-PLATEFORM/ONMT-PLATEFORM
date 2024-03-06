@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8071
+    loadbalancer:
+      ribbon:
+        enabled: false
+eureka:
+  server:
+    enableSelfPreservation: false
+    renewalPercentThreshold: 0.49

@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION">
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/eureka-server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/gateway-server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/java/ma/onmt/api/discovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/test/java/ma/onmt/api/discovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +68,7 @@
     "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/region-service/src/main/java/ma/onmt/api/regionservice",
+    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,10 +85,10 @@
       <recent name="ma.onmt.api.regionservice.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice" />
-      <recent name="$PROJECT_DIR$/region-service" />
       <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice" />
+      <recent name="$PROJECT_DIR$/region-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-parent" />
@@ -117,6 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerDiscoveryEgilekomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.egilekom.serverdiscoveryegilekom.ServerDiscoveryEgilekomApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -140,7 +159,7 @@
       <workItem from="1709716307545" duration="467000" />
       <workItem from="1709716783669" duration="91000" />
       <workItem from="1709716882979" duration="1063000" />
-      <workItem from="1709738015501" duration="8199000" />
+      <workItem from="1709738015501" duration="8654000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -262,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709751520727</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION">
+      <option name="closed" value="true" />
+      <created>1709752618417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709752618417</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="onmt-config-service" />
+        <module name="service-discovery" />
       </profile>
       <profile name="Annotation profile for region-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -32,13 +33,18 @@
         <module name="onmt-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="onmt-service-discovery" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="onmt-api-parent" options="-parameters" />
       <module name="onmt-common" options="-parameters" />
       <module name="onmt-config-service" options="-parameters" />
+      <module name="onmt-service-discovery" options="-parameters" />
       <module name="region-service" options="-parameters" />
+      <module name="service-discovery" options="-parameters" />
     </option>
   </component>
 </project>

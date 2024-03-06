@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/onmt-config-service/pom.xml" />
         <option value="$PROJECT_DIR$/onmt-common/pom.xml" />
         <option value="$PROJECT_DIR$/region-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
       </list>
     </option>
   </component>
