@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Finishing Region Service .base implementation">
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/client/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/dto/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/UserRegionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/region-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +140,7 @@
       <workItem from="1709716307545" duration="467000" />
       <workItem from="1709716783669" duration="91000" />
       <workItem from="1709716882979" duration="1063000" />
-      <workItem from="1709738015501" duration="7143000" />
+      <workItem from="1709738015501" duration="8199000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -259,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709750114208</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION">
+      <option name="closed" value="true" />
+      <created>1709751520727</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709751520727</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +290,8 @@
     <MESSAGE value="open api configuration" />
     <MESSAGE value="adding some configuration , auto save some initial data" />
     <MESSAGE value="Finishing Region Service .base implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Region Service .base implementation" />
+    <MESSAGE value="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
