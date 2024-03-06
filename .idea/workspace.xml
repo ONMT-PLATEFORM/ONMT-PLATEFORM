@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Adding necessary component controller,service , repo , entity , dto ...">
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/aspects/LoggingAspect.java" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Adding necessary component controller,service , repo , entity , dto , aspects">
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/config/OpenApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +77,9 @@
       <recent name="$PROJECT_DIR$/onmt-parent" />
       <recent name="$PROJECT_DIR$/parent" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.onmt.api.regionservice.config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -132,7 +135,7 @@
       <workItem from="1709716307545" duration="467000" />
       <workItem from="1709716783669" duration="91000" />
       <workItem from="1709716882979" duration="1063000" />
-      <workItem from="1709738015501" duration="4002000" />
+      <workItem from="1709738015501" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -206,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709748230261</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding necessary component controller,service , repo , entity , dto , aspects">
+      <option name="closed" value="true" />
+      <created>1709748357760</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709748357760</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +241,8 @@
     <MESSAGE value="setup initial pipelines" />
     <MESSAGE value="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites" />
     <MESSAGE value="Adding necessary component controller,service , repo , entity , dto ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding necessary component controller,service , repo , entity , dto ..." />
+    <MESSAGE value="Adding necessary component controller,service , repo , entity , dto , aspects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding necessary component controller,service , repo , entity , dto , aspects" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
