@@ -1,5 +1,6 @@
 package ma.onmt.api.regionservice.controller;
 
+import lombok.RequiredArgsConstructor;
 import ma.onmt.api.regionservice.dto.request.EventRequest;
 import ma.onmt.api.regionservice.dto.response.EventResponse;
 import ma.onmt.api.regionservice.service.EventService;
@@ -14,9 +15,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/events")
+@RequiredArgsConstructor
 public class EventController {
 
-    private EventService eventService;
+    private final  EventService eventService;
 
     @GetMapping
     public ResponseEntity<Page<EventResponse>> getAllEvents(@RequestParam Map<String, String> params) {

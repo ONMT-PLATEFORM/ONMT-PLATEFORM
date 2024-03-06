@@ -1,5 +1,6 @@
 package ma.onmt.api.regionservice.controller;
 
+import lombok.RequiredArgsConstructor;
 import ma.onmt.api.regionservice.dto.request.AccommodationRequest;
 import ma.onmt.api.regionservice.dto.response.AccommodationResponse;
 import ma.onmt.api.regionservice.service.AccommodationService;
@@ -9,14 +10,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/accommodations")
+@RequiredArgsConstructor
 public class AccommodationController {
 
-    private AccommodationService accommodationService;
+    private final  AccommodationService accommodationService;
 
     @GetMapping
     public ResponseEntity<Page<AccommodationResponse>> getAllAccommodations(

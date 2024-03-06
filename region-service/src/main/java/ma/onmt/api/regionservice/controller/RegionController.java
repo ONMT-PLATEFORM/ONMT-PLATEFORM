@@ -1,5 +1,6 @@
 package ma.onmt.api.regionservice.controller;
 
+import lombok.RequiredArgsConstructor;
 import ma.onmt.api.regionservice.dto.request.RegionRequest;
 import ma.onmt.api.regionservice.dto.response.RegionResponse;
 import ma.onmt.api.regionservice.service.RegionService;
@@ -14,9 +15,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/regions")
+@RequiredArgsConstructor
 public class RegionController {
 
-    private RegionService regionService;
+    private final  RegionService regionService;
 
     @GetMapping
     public ResponseEntity<Page<RegionResponse>> getAllRegions(@RequestParam Map<String, String> params) {

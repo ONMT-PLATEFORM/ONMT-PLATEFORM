@@ -1,5 +1,6 @@
 package ma.onmt.api.regionservice.controller;
 
+import lombok.RequiredArgsConstructor;
 import ma.onmt.api.regionservice.dto.request.ActivityRequest;
 import ma.onmt.api.regionservice.dto.response.ActivityResponse;
 import ma.onmt.api.regionservice.service.ActivityService;
@@ -13,10 +14,11 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/activities")
+@RequiredArgsConstructor
 public class ActivityController {
 
 
-    private ActivityService activityService;
+    private final  ActivityService activityService;
 
     @GetMapping
     public ResponseEntity<Page<ActivityResponse>> getAllActivities(@RequestParam Map<String, String> params) {

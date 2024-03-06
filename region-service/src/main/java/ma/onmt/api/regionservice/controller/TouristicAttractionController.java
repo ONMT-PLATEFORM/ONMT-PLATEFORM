@@ -1,5 +1,6 @@
 package ma.onmt.api.regionservice.controller;
 
+import lombok.RequiredArgsConstructor;
 import ma.onmt.api.regionservice.dto.request.TouristicAttractionRequest;
 import ma.onmt.api.regionservice.dto.response.TouristicAttractionResponse;
 import ma.onmt.api.regionservice.service.TouristicAttractionService;
@@ -13,10 +14,11 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/touristic-attractions")
+@RequiredArgsConstructor
 public class TouristicAttractionController {
 
 
-    private TouristicAttractionService touristicAttractionService;
+    private final TouristicAttractionService touristicAttractionService;
 
     @GetMapping
     public ResponseEntity<Page<TouristicAttractionResponse>> getAllTouristicAttractions(@RequestParam Map<String, String> params) {
