@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="onmt-config-service" />
       </profile>
-      <profile name="Annotation profile for onmt-common" enabled="true">
+      <profile name="Annotation profile for region-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -28,6 +28,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
         </processorPath>
+        <module name="region-service" />
         <module name="onmt-common" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="onmt-api-parent" options="-parameters" />
       <module name="onmt-common" options="-parameters" />
       <module name="onmt-config-service" options="-parameters" />
+      <module name="region-service" options="-parameters" />
     </option>
   </component>
 </project>

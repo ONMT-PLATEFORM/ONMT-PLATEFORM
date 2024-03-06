@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="setup initial pipelines">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,6 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM",
@@ -52,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,20 +71,16 @@
       <recent name="$PROJECT_DIR$/parent" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.OnmtCommonApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ONMT-PLATEFORM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ONMT-PLATEFORM" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="onmt-config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.egilekom.configserver.ConfigurationServerApplication" />
@@ -89,6 +91,13 @@
     <configuration name="OnmtCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="onmt-common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.onmt.api.common.OnmtCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="region-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.onmt.api.regionservice.RegionServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +122,8 @@
       <workItem from="1709645836218" duration="1311000" />
       <workItem from="1709647161235" duration="934000" />
       <workItem from="1709648106143" duration="198000" />
-      <workItem from="1709716307545" duration="165000" />
+      <workItem from="1709716307545" duration="467000" />
+      <workItem from="1709716783669" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -163,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709647558547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites">
+      <option name="closed" value="true" />
+      <created>1709716491701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709716491701</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,10 +192,13 @@
     <MESSAGE value="build the common project" />
     <MESSAGE value="build the parent project" />
     <MESSAGE value="setup initial pipelines" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup initial pipelines" />
+    <MESSAGE value="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites" />
+    <option name="LAST_COMMIT_MESSAGE" value="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {
+    },
     {
     },
     {
