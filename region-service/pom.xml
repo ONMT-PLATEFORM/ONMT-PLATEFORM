@@ -15,6 +15,7 @@
 	<description>Ce microservice sera responsable de la gestion des informations sur les différentes régions du Maroc, y compris les attractions touristiques, les activités, les hébergements et les événements.</description>
 	<properties>
 		<java.version>17</java.version>
+		<spring.cloud.version>2022.0.0</spring.cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -22,6 +23,17 @@
 			<artifactId>onmt-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
