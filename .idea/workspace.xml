@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="setup initial pipelines">
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/java/com/egilekom/configserver/ConfigurationServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/test/java/com/egilekom/configserver/ConfigurationServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,22 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.onmt-common [clean,validate,compile,test...].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pc/Documents/youcode/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.onmt-common [clean,validate,compile,test...].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
@@ -124,6 +113,7 @@
       <workItem from="1709645836218" duration="1311000" />
       <workItem from="1709647161235" duration="934000" />
       <workItem from="1709648106143" duration="198000" />
+      <workItem from="1709716307545" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -186,12 +176,14 @@
     <MESSAGE value="setup initial pipelines" />
     <option name="LAST_COMMIT_MESSAGE" value="setup initial pipelines" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {
+    },
     {
     }
   ],
-  &quot;lastFilter&quot;: {
+  "lastFilter": {
   }
-}</component>
+}]]></component>
 </project>
