@@ -26,11 +26,24 @@ public class RegionServiceApplication {
 			//Region
 			Region region = new Region();
 			region.setName("Rabat");
-			region =regionRepository.save(region);
+			region.setDescription("""
+						Rabat, Morocco's capital, rests along the shores of the Bouregreg River and the Atlantic Ocean. It's known for landmarks that speak to its Islamic and French-colonial heritage, including the Kasbah of the Udayas. This Berber-era royal fort is surrounded by formal French-designed gardens and overlooks the ocean.\s
+					""");
+			region.setArea("1000 square kilometers");
+			region.setGdp("100 Million MAD");
+			region.setPopulation("1 million");
+			region = regionRepository.save(region);
 
 			Region region1 = new Region();
 			region1.setName("Casablanca");
-			region1 =regionRepository.save(region1);
+			region1.setDescription("""
+						Casablanca is a port city and commercial hub in western Morocco, fronting the Atlantic Ocean. The city's French colonial legacy is seen in its downtown Mauresque architecture, a blend of Moorish style and European art deco. Standing partly over the water, the enormous Hassan II Mosque, completed in 1993, has a 210m minaret topped with lasers directed toward Mecca.
+					""");
+			region1.setArea("1500 square kilometers");
+			region1.setGdp("220 Million MAD");
+			region1.setPopulation("2 million");
+			region1 = regionRepository.save(region1);
+
 
 
 			//Event

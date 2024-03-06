@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="open api configuration">
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/AccommodationRepository.java" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="adding some configuration , auto save some initial data">
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/mapper/AccommodationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/mapper/ActivityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/mapper/RegionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/mapper/TouristicAttractionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/AccommodationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/AccommodationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/TouristicAttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/TouristicAttractionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/entity/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/repository/RegionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/RegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/RegionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +145,7 @@
       <workItem from="1709716307545" duration="467000" />
       <workItem from="1709716783669" duration="91000" />
       <workItem from="1709716882979" duration="1063000" />
-      <workItem from="1709738015501" duration="4629000" />
+      <workItem from="1709738015501" duration="5559000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -232,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709748446874</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding some configuration , auto save some initial data">
+      <option name="closed" value="true" />
+      <created>1709749020316</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709749020316</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +269,8 @@
     <MESSAGE value="Adding necessary component controller,service , repo , entity , dto ..." />
     <MESSAGE value="Adding necessary component controller,service , repo , entity , dto , aspects" />
     <MESSAGE value="open api configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="open api configuration" />
+    <MESSAGE value="adding some configuration , auto save some initial data" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some configuration , auto save some initial data" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

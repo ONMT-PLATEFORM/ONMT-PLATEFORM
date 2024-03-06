@@ -20,7 +20,7 @@ public class Region {
     private Long id;
     @Column(name = "name")
     private String name;
-    @Column(name = "description")
+    @Column(name = "description",length = 1000)
     private String description;
     private String area ;
     private String gdp;
