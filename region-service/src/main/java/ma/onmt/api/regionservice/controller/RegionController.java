@@ -3,14 +3,14 @@ package ma.onmt.api.regionservice.controller;
 import lombok.RequiredArgsConstructor;
 import ma.onmt.api.regionservice.dto.request.RegionRequest;
 import ma.onmt.api.regionservice.dto.response.RegionResponse;
+import ma.onmt.api.regionservice.dto.response.UserResponse;
 import ma.onmt.api.regionservice.service.RegionService;
-import org.springframework.beans.factory.annotation.Autowired;
+import ma.onmt.api.regionservice.service.UserRegionService;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -19,6 +19,7 @@ import java.util.Map;
 public class RegionController {
 
     private final  RegionService regionService;
+    private final UserRegionService userRegionService;
 
     @GetMapping
     public ResponseEntity<Page<RegionResponse>> getAllRegions(@RequestParam Map<String, String> params) {
@@ -26,6 +27,11 @@ public class RegionController {
         return new ResponseEntity<>(regions, HttpStatus.OK);
     }
 
+    @GetMapping("/{id}/users")
+    public ResponseEntity<Page<UserResponse>> getUsersByRegion(@PathVariable Long id, @RequestParam Map<String, String> params) {
+        Page<UserResponse> users = userRegionService.getUsersByRegion(id, params);
+        return new ResponseEntity<>(users, HttpStatus.OK);
+    }
     @GetMapping("/{id}")
     public ResponseEntity<RegionResponse> getRegionById(@PathVariable Long id) {
         RegionResponse region = regionService.getRegionById(id);
@@ -49,4 +55,7 @@ public class RegionController {
         regionService.deleteRegion(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
+
+
 }

@@ -11,4 +11,7 @@ public class AppConfig {
     ModelMapper modelMapper() {
         return new ModelMapper();
     }
+
+    //TODO: Implementing RequestInterceptor
+
 }
