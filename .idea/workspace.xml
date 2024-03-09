@@ -4,34 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="setup initial pipelines">
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/java/com/egilekom/configserver/ConfigurationServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onmt-config-service/src/test/java/com/egilekom/configserver/ConfigurationServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="ADDING DISCOVERY SERVICE ...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,46 +49,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.onmt-common [clean,validate,compile,test...].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pc/Documents/youcode/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.onmt-common [clean,validate,compile,test...].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ma.onmt.api.regionservice.service.impl" />
+      <recent name="ma.onmt.api.regionservice.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice" />
+      <recent name="$PROJECT_DIR$/region-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-parent" />
       <recent name="$PROJECT_DIR$/parent" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.onmt.api.regionservice.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.OnmtCommonApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ONMT-PLATEFORM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ONMT-PLATEFORM" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="onmt-config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.egilekom.configserver.ConfigurationServerApplication" />
@@ -100,6 +108,20 @@
     <configuration name="OnmtCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="onmt-common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.onmt.api.common.OnmtCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="region-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.onmt.api.regionservice.RegionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerDiscoveryEgilekomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.egilekom.serverdiscoveryegilekom.ServerDiscoveryEgilekomApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,6 +146,10 @@
       <workItem from="1709645836218" duration="1311000" />
       <workItem from="1709647161235" duration="934000" />
       <workItem from="1709648106143" duration="198000" />
+      <workItem from="1709716307545" duration="467000" />
+      <workItem from="1709716783669" duration="91000" />
+      <workItem from="1709716882979" duration="1063000" />
+      <workItem from="1709738015501" duration="10027000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -173,25 +199,140 @@
       <option name="project" value="LOCAL" />
       <updated>1709647558547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites">
+      <option name="closed" value="true" />
+      <created>1709716491701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709716491701</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites">
+      <option name="closed" value="true" />
+      <created>1709716908456</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709716908456</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding necessary component controller,service , repo , entity , dto ...">
+      <option name="closed" value="true" />
+      <created>1709748230261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709748230261</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding necessary component controller,service , repo , entity , dto , aspects">
+      <option name="closed" value="true" />
+      <created>1709748357760</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709748357760</updated>
+    </task>
+    <task id="LOCAL-00011" summary="open api configuration">
+      <option name="closed" value="true" />
+      <created>1709748446874</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709748446874</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding some configuration , auto save some initial data">
+      <option name="closed" value="true" />
+      <created>1709749020316</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709749020316</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finishing Region Service .base implementation">
+      <option name="closed" value="true" />
+      <created>1709749989165</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709749989165</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finishing Region Service .base implementation">
+      <option name="closed" value="true" />
+      <created>1709750114208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709750114208</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION">
+      <option name="closed" value="true" />
+      <created>1709751520727</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709751520727</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION">
+      <option name="closed" value="true" />
+      <created>1709752618417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709752618417</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ADDING DISCOVERY SERVICE ...">
+      <option name="closed" value="true" />
+      <created>1709753215674</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709753215674</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignoring" />
     <MESSAGE value="build the common project" />
     <MESSAGE value="build the parent project" />
     <MESSAGE value="setup initial pipelines" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup initial pipelines" />
+    <MESSAGE value="ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leurs-attractions-touristiques-evenements-hebergements-et-ses-activites" />
+    <MESSAGE value="Adding necessary component controller,service , repo , entity , dto ..." />
+    <MESSAGE value="Adding necessary component controller,service , repo , entity , dto , aspects" />
+    <MESSAGE value="open api configuration" />
+    <MESSAGE value="adding some configuration , auto save some initial data" />
+    <MESSAGE value="Finishing Region Service .base implementation" />
+    <MESSAGE value="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION" />
+    <MESSAGE value="ADDING DISCOVERY SERVICE ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDING DISCOVERY SERVICE ..." />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
     {
     }
   ],
-  &quot;lastFilter&quot;: {
+  "lastFilter": {
   }
-}</component>
+}]]></component>
 </project>

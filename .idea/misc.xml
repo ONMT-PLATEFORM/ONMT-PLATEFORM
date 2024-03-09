@@ -7,8 +7,14 @@
         <option value="$PROJECT_DIR$/onmt-parent/pom.xml" />
         <option value="$PROJECT_DIR$/onmt-config-service/pom.xml" />
         <option value="$PROJECT_DIR$/onmt-common/pom.xml" />
+        <option value="$PROJECT_DIR$/region-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="PWA">
+    <option name="enabled" value="true" />
+    <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK" />
 </project>
