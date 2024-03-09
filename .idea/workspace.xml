@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="ADDING DISCOVERY SERVICE ...">
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Register region service to the Eureka discovery service than initial the UserFeignClient Service .">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/RegionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.onmt-common [clean,validate,compile,test...].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.onmt-common [clean,validate,compile,test...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/onmt-config-service/src/main/resources/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ma.onmt.api.regionservice.service.impl" />
@@ -149,7 +146,9 @@
       <workItem from="1709716307545" duration="467000" />
       <workItem from="1709716783669" duration="91000" />
       <workItem from="1709716882979" duration="1063000" />
-      <workItem from="1709738015501" duration="10027000" />
+      <workItem from="1709738015501" duration="10322000" />
+      <workItem from="1709972874888" duration="612000" />
+      <workItem from="1710006191391" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -287,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709753215674</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Register region service to the Eureka discovery service than initial the UserFeignClient Service .">
+      <option name="closed" value="true" />
+      <created>1709754545406</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709754545406</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,10 +324,15 @@
     <MESSAGE value="Finishing Region Service .base implementation" />
     <MESSAGE value="ADDING MORE ENDPOINT FOR THE USER'S ON THE REGION , WE NEED IN THIS CASE TO CALL USER'S ON THE SAME REGION" />
     <MESSAGE value="ADDING DISCOVERY SERVICE ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDING DISCOVERY SERVICE ..." />
+    <MESSAGE value="Register region service to the Eureka discovery service than initial the UserFeignClient Service ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Register region service to the Eureka discovery service than initial the UserFeignClient Service ." />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {
+    },
+    {
+    },
     {
     },
     {
