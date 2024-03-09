@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs.">
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/aspects/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/client/RegionFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/BearerToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/Claim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/RegisterDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/enums/RoleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/business/AlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/business/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/business/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/business/OutOfTimeExpection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/business/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/response/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/response/ValidationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/impl/CostumUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/util/JwtUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/user-service-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +170,7 @@
       <workItem from="1709738015501" duration="10322000" />
       <workItem from="1709972874888" duration="612000" />
       <workItem from="1710006191391" duration="1348000" />
-      <workItem from="1710008060178" duration="1337000" />
+      <workItem from="1710008060178" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -375,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710007346366</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs.">
+      <option name="closed" value="true" />
+      <created>1710009421773</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710009421773</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,8 +1,8 @@
 package ma.onmt.api.usersservice.exception;
 
 
-import ma.aftas.aflasclubapi.exception.business.*;
-import ma.aftas.aflasclubapi.exception.response.ErrorResponse;
+import ma.onmt.api.usersservice.exception.business.*;
+import ma.onmt.api.usersservice.exception.response.ErrorResponse;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
