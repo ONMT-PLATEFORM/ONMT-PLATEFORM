@@ -40,7 +40,6 @@ public class UserServiceImpl implements UserService {
         this.jwtUtilities = jwtUtilities;
         this.passwordEncoder = passwordEncoder;
         this.roleRepository = roleRepository;
-
         this.userMapper = UserMapper.INSTANCE;
     }
 
