@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/v1/auth")
+@RequestMapping("auth")
 @RequiredArgsConstructor
 public class AuthenticationController {
 
@@ -29,13 +29,13 @@ public class AuthenticationController {
     }
 
 
-    //TODO: FORGOT PASSWORD
+    //: FORGOT PASSWORD
     @PostMapping("/forgot-password")
     public ResponseEntity<?> forgotPassword() {
         return ResponseEntity.ok("Welcome! This is a public content!");
     }
 
-    //TODO: RESET PASSWORD
+    //: RESET PASSWORD
     @PostMapping("/reset-password")
     public ResponseEntity<?> resetPassword() {
         return ResponseEntity.ok("Welcome! This is a public content!");

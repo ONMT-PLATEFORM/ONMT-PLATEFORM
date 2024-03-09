@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs.">
+      <change afterPath="$PROJECT_DIR$/users-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/AuthRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/RegionResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/client/RegionFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/client/RegionFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto/RegisterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +65,7 @@
     "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/users-service/src/main/java/ma/onmt/api/usersservice",
+    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/users-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,11 +82,11 @@
       <recent name="ma.onmt.api.regionservice.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/users-service" />
       <recent name="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice" />
       <recent name="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto" />
       <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-parent" />
@@ -170,7 +178,7 @@
       <workItem from="1709738015501" duration="10322000" />
       <workItem from="1709972874888" duration="612000" />
       <workItem from="1710006191391" duration="1348000" />
-      <workItem from="1710008060178" duration="1392000" />
+      <workItem from="1710008060178" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -348,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710009421773</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs.">
+      <option name="closed" value="true" />
+      <created>1710009461061</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710009461061</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
