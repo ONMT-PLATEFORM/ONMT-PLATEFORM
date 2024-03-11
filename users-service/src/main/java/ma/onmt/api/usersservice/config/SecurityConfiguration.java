@@ -39,7 +39,9 @@ public class SecurityConfiguration {
                         "/api/v1/auth/**",
                         "/swagger-ui/**",
                         "/v3/api-docs/**",
-                        "/api-docs/**"
+                        "/api-docs/**",
+                        "/api/v1/regions/**",
+                        "/h2-console/**"
                 ).permitAll().anyRequest().authenticated());
         http.cors(Customizer.withDefaults());
         http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

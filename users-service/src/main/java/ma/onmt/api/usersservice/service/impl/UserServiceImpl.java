@@ -78,6 +78,7 @@ public class UserServiceImpl implements UserService {
         user.setFirstName(registerDto.getFirstName());
         user.setLastName(registerDto.getLastName());
         user.setPassword(passwordEncoder.encode(registerDto.getPassword()));
+        user.setRegionId(registerDto.getRegionId());
         userRepository.save(user);
         Claim claim = buildClaimFromUser(user);
         String token = jwtUtilities.generateToken(claim, Collections.singletonList(null));

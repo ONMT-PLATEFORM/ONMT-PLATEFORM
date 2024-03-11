@@ -28,7 +28,7 @@ public class RegionController {
     }
 
     @GetMapping("/{id}/users")
-    public ResponseEntity<Page<UserResponse>> getUsersByRegion(@PathVariable Long id, @RequestParam Map<String, String> params) {
+    public ResponseEntity<Page<UserResponse>> getUsersByRegion(@PathVariable(name = "id") Long id, @RequestParam(required = false) Map<String, String> params) {
         Page<UserResponse> users = userRegionService.getUsersByRegion(id, params);
         return new ResponseEntity<>(users, HttpStatus.OK);
     }

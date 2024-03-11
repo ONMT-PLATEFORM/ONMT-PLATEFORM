@@ -31,7 +31,10 @@ public class UserRegionServiceImpl implements UserRegionService {
         int page = Integer.parseInt(params.getOrDefault("page", "0"));
         int size = Integer.parseInt(params.getOrDefault("size", "10"));
         PageRequest pageRequest = PageRequest.of(page, size);
-        return this.userRepository.findAllByRegionId(id,pageRequest).map(userMapper::toDto);
+
+        Page<UserResponse> userResponses =  this.userRepository.findAllByRegionId(id.toString(),pageRequest).map(userMapper::toDto);
+        System.out.println(userResponses.get().count());
+        return userResponses;
 
     }
 
