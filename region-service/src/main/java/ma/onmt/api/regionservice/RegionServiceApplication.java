@@ -39,6 +39,7 @@ public class RegionServiceApplication {
 					""");
 			region.setArea("1000 square kilometers");
 			region.setGdp("100 Million MAD");
+			region.setImageUrl("https://media.istockphoto.com/id/1133193983/fr/photo/vue-du-port-de-rabat-maroc-en-afrique.jpg?s=612x612&w=0&k=20&c=6IQeIBSW2M-KjX28dfC_aZAFOCnr9R9A-84V8qZysOM=");
 			region.setPopulation("1 million");
 			region = regionRepository.save(region);
 
@@ -48,6 +49,7 @@ public class RegionServiceApplication {
 						Casablanca is a port city and commercial hub in western Morocco, fronting the Atlantic Ocean. The city's French colonial legacy is seen in its downtown Mauresque architecture, a blend of Moorish style and European art deco. Standing partly over the water, the enormous Hassan II Mosque, completed in 1993, has a 210m minaret topped with lasers directed toward Mecca.
 					""");
 			region1.setArea("1500 square kilometers");
+			region1.setImageUrl("https://media.istockphoto.com/id/1282606692/photo/evening-view-of-casablanca-cityscape-with-mosque-hassan-ii-in-morocco.jpg?s=612x612&w=0&k=20&c=kKghyuc-Y5b6-53unfvTolvJuqe7XbR_G9A457jBmNs=");
 			region1.setGdp("220 Million MAD");
 			region1.setPopulation("2 million");
 			region1 = regionRepository.save(region1);

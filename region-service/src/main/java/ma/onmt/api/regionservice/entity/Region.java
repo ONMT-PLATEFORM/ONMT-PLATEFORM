@@ -22,6 +22,7 @@ public class Region {
     private String name;
     @Column(name = "description",length = 1000)
     private String description;
+    private String imageUrl;
     private String area ;
     private String gdp;
     private String population;

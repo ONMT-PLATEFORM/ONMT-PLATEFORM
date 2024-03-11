@@ -9,8 +9,19 @@ spring:
       discovery.locator:
         enabled: true
         lowerCaseServiceId: true
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
   application:
     name: gateway-server
+
 
   #      routes:
   #        - id: projectModule
