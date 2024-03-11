@@ -4,31 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs.">
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/business/AlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/business/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/business/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/business/OutOfTimeExpection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/business/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/response/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/exception/response/ValidationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+    <list default="true" id="205383ae-da7f-4ae5-ba9e-acca3bcb343e" name="Changes" comment="adding the gateway service">
+      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/ma/onmt/api/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/ma/onmt/api/gatewayservice/filters/FilterUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/ma/onmt/api/gatewayservice/filters/ResponseFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/ma/onmt/api/gatewayservice/filters/TrackingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/ma/onmt/api/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-config-service/src/main/resources/config/region-service-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onmt-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/onmt-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/client/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/client/UserFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/controller/RegionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice/service/impl/UserRegionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/UserRegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/controller/UserRegionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/impl/UserRegionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/impl/UserRegionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
     "git-widget-placeholder": "ONMT-1-au-tant-quutilisateur-je-peux-consulter-les-regions-y-compris-leur…vites",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM/region-service/src/main/java/ma/onmt/api/regionservice",
+    "last_opened_file_path": "/Users/pc/Documents/youcode/onmt/ONMT-PLATEFORM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,11 +94,11 @@
       <recent name="ma.onmt.api.regionservice.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/region-service/src/main/java/ma/onmt/api/regionservice" />
       <recent name="$PROJECT_DIR$/users-service" />
       <recent name="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice" />
       <recent name="$PROJECT_DIR$/users-service/src/main/java/ma/onmt/api/usersservice/dto" />
-      <recent name="$PROJECT_DIR$/onmt-config-service/src/main/resources/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/onmt-parent" />
@@ -129,6 +125,13 @@
     <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="onmt-config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.egilekom.configserver.ConfigurationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.egilekom.api.gatewayservice.GatewayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +200,7 @@
       <workItem from="1710008060178" duration="2088000" />
       <workItem from="1710068082114" duration="4000" />
       <workItem from="1710148621693" duration="4011000" />
-      <workItem from="1710154318133" duration="4009000" />
+      <workItem from="1710154318133" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="ignoring">
       <option name="closed" value="true" />
@@ -391,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710011838556</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixing problem on the communication between services">
+      <option name="closed" value="true" />
+      <created>1710158731045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710158731045</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +434,9 @@
     <MESSAGE value="ADDING DISCOVERY SERVICE ..." />
     <MESSAGE value="Register region service to the Eureka discovery service than initial the UserFeignClient Service ." />
     <MESSAGE value="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ce microservice gérera les informations sur les utilisateurs de la plateforme, y compris l'enregistrement de nouveaux utilisateurs, la gestion des profils utilisateur et l'authentification des utilisateurs." />
+    <MESSAGE value="fixing problem on the communication between services" />
+    <MESSAGE value="adding the gateway service" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the gateway service" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
